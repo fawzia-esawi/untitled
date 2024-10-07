@@ -1,0 +1,67 @@
+.custom-button /*تنسيق الازرار */{
+    background-color: #D2B48C; /* لون الخلفية */
+    color: white; /* لون النص */
+    padding: 15px 32px; /* الحشوة */
+    text-align: center; /* محاذاة النص */
+    font-size:30px; /* حجم الخط */
+    border-radius: 12px;/*من اجل الحواف */
+
+}
+
+
+.paragraph{/*تم انشائها  لتنسيق الفقرات */
+    background-color:#D2B48C;
+    font-size:20px ;
+    color: #F5F5DC;
+    width: 50%;/*النسبة الموئية لعرض العنصر بالنسبة للاب*/
+    padding-left: 15px;
+    border-radius: 12px;
+
+}
+.text-content{/*عندما أريد جعل سطر معين ان يكون بالمنتصف مثلا العنوان هو فقط اريده منتصف اذا استخدمه*/
+    text-align:center;
+}
+.background{/*تنسيق الخلفية*/
+    display: flex; /* إضافة Flexbox */
+    padding:30px; /* إضاف حشوة */
+   flex-direction:column/*ترتب العناصر*/ ;
+    font-size:20px;
+    background-image:url("background.jpg");
+
+}
+.my_picture{/*لتنسيق صورتي الشخضية */
+    border-radius: 50%;/*يجعل زوايا النعصر مستديرة*/
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: 20px/*يزيد مسافة من الشمال  رح ينزاح لليمين*/;
+    margin-bottom:10px/*يزيد مسافة العنصر من الاسفل فيرتفع العنصر للاعلى*/;
+    float: left;
+
+}
+.My_hobbies{/*لتنسيق صور الهوايات*/
+    width: 300px;
+    height: 250px;
+}
+.About_me {/*تنسيق العنوان*/
+    text-align: center;
+    flex-direction: column;
+    background-color:#D2B48C;
+    width: 30%;
+    color: #F5F5DC;
+    font-size:60px ;
+    margin-left:300px;
+    position: relative; /*هي مع يلي بعدها تجعلني استطيع رفع العنصر للاعلى*/
+    top: -120px;
+}
+aside {/*تنسيق الفقرات الجانبية */
+    width: 30%;
+    padding-left: 15px;
+    margin-right: 60px;
+    float:right ;
+    background-color:#D2B48C;
+    font-size:25px ;
+    color: #F5F5DC;
+
+}
